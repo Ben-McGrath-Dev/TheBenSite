@@ -30,5 +30,5 @@ tsnb.onclick = function () {
     const i = parseFloat(prompt("Input input 1: "));
     const i2 = parseFloat(prompt("Input input 2: "));
 
-    tout.innerHTML = "Output: " + String(twoInputNeuron(w, b, i, i2));
+    tout.textContent = "Output: " + String(twoInputNeuron(w, b, i, i2));
 }
