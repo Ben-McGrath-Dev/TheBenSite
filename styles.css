@@ -1,15 +1,13 @@
 body {
   background-color: #383838;
-}
-
-p {
   color: white;
+  font-family: Arial, sans-serif;
 }
 
 p.info {
-  font-size: small;
+  font-size: x-small;
 }
 
-p.name {
+.name {
   color: #008cff;
 }
