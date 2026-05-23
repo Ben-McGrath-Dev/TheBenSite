@@ -25,3 +25,7 @@ button {
   /*Line below from https://www.w3schools.com/cssref/pr_text_text-decoration.php */
   text-decoration: underline;
 }
+
+.bold {
+  font-weight: bold;
+}
