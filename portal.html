@@ -112,6 +112,11 @@
                     message.textContent = "ACCESS DENIED";
                 }
             }
+            document.getElementById("passwordInput").addEventListener("keydown", function(event) {
+                if (event.key === "Enter") {
+                    unlock();
+                }
+            });
         </script>
     </body>
 </html>
