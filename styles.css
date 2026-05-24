@@ -30,9 +30,15 @@ button {
   font-weight: bold;
 }
 
-/* The next style is from ChatGPT to help with mobile support. */
+/* The next 2 styles are from ChatGPT to help with mobile support. */
 .pdf {
   width: 100%;
   height: 80vh;
   border: none;
+}
+
+@media (max-width: 600px) {
+  .pdf-viewer {
+    height: 70vh;
+  }
 }
