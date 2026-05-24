@@ -38,7 +38,7 @@ button {
 }
 
 @media (max-width: 600px) {
-  .pdf-viewer {
+  .pdf {
     height: 70vh;
   }
 }
