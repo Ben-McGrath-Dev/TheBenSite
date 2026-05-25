@@ -54,3 +54,9 @@ button {
   color: red;
   font-weight: bolds;
 }
+
+.logo {
+  width: 100px;
+  height: auto;
+  margin: auto;
+}
