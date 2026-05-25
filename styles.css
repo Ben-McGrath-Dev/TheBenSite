@@ -52,11 +52,21 @@ button {
   width: 65%;
   outline: 2px solid #555555;
   color: red;
-  font-weight: bolds;
+  font-weight: bold;
 }
 
-.logo {
+.centerImage {
   width: 100px;
   height: auto;
+  display: block;
   margin: auto;
+}
+
+.centerText {
+  text-align: center;
+}
+
+.centerContent {
+  display: flex;
+  justify-content: center;
 }
