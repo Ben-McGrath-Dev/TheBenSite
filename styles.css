@@ -42,3 +42,15 @@ button {
     height: 70vh;
   }
 }
+
+.message {
+  width: 65%;
+  outline: 2px solid #555555;
+}
+
+.urgentMessage {
+  width: 65%;
+  outline: 2px solid #555555;
+  color: red;
+  font-weight: bolds;
+}
